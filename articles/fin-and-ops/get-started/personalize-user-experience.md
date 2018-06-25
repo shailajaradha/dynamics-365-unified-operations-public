@@ -53,14 +53,37 @@ The **User options** page contains several system-wide settings for the current 
 
 ## Implicit personalizations
 Implicit personalizations are personalizations that you make just by interacting with controls that "remember" their current visible state.
+:::row:::
+    :::column:::
+    - **Grid columns** – You can adjust the width of a column in a grid by selecting the sizing bar to the left or right of the column 
+    header, and then sliding it left or right until the column is the desired width. Finance and Operations stores the width that you 
+    set for a column. It then resizes the column to that width every time that you open the page that includes that grid.
+    - **FastTabs** – Some pages have expandable sections that are known as *FastTabs*. Finance and Operations stores information about 
+    the FastTabs that you've expanded and collapsed. Then, every time that you return to the page, the same FastTabs will be either         expanded or collapsed, based on your last interaction with the page. In some cases, you can help improve system performance by           collapsing a FastTab, because Finance and Operations doesn't have to retrieve the information for that FastTab until the FastTab is     expanded. As explained later this topic, you can also change the order of the FastTabs on a page.
+    - **Fact Boxes** – Some pages have a section that is known as a *Fact Box pane*. This pane contains read-only information that is 
+    related to the current subject of the page. Each section in the Fact Box pane is known as a *Fact Box*. You can hide or show the         whole Fact Box pane, and you can also expand or collapse individual Fact Boxes. Finance and Operations stores your preferences.  
+    Then, every time that you return to the page, the state of the Fact Box pane and the individual Fact Boxes will be restored, based       on your last interaction with the page. In some cases, you can help improve system performance by collapsing a Fact Box, because         Finance and Operations doesn't have to retrieve the information for that Fact Box until the Fact Box is expanded.
+    :::column-end:::
+    :::column:::
+       - **Action Panes** – An *Action Pane* appears near the top of most pages. The Action Pane contains buttons for many of the 
+       actions that you can perform on the current page. These buttons are often organized on tabs. You can pin open the entire Action 
+       Pane, or you can have it collapsed by default. Then, the next time that you open the page, Finance and Operations will restore 
+       the pinned state of the Action Pane. If the Action Pane is pinned open, Finance and Operations will also show the tab of actions 
+       you last used.
+       - **QuickFilters** – A *QuickFilter* appears above many grids. The QuickFilter lets you filter the grid, based on a column that 
+       you select. Finance and Operations stores the column that you filtered on. Then, the next time that you open the page that 
+       includes that grid, the grid will be filtered on the same column. However, you can then filter the grid on a different column.
+       - **Column header filters** – When you filter a grid by using the *Column header filters*, you can change the filter operator as 
+       you require to find the data that you want. For example, you can change the operator from **begins with** to **is exactly**. 
+       Every time that you use a column header filter and modify the filter operator, Finance and Operations stores the change. It will 
+       then restore filter operator the next time that you filter on that column.
+       - **Navigation pane** – You can open the *Navigation pane* by selecting the **Menu** button in the left pane of any page. (The 
+       **Menu** button is sometimes referred to as the *hamburger*, *hamburger menu*, or *hamburger button*.) You can pin the Navigation 
+       pane open, or you can keep it collapsed by default. After you pin the Navigation pane open, Finance and Operations will keep it 
+       open until you collapse it.
+    :::column-end:::
+:::row-end:::
 
-- **Grid columns** – You can adjust the width of a column in a grid by selecting the sizing bar to the left or right of the column header, and then sliding it left or right until the column is the desired width. Finance and Operations stores the width that you set for a column. It then resizes the column to that width every time that you open the page that includes that grid.
-- **FastTabs** – Some pages have expandable sections that are known as *FastTabs*. Finance and Operations stores information about the FastTabs that you've expanded and collapsed. Then, every time that you return to the page, the same FastTabs will be either expanded or collapsed, based on your last interaction with the page. In some cases, you can help improve system performance by collapsing a FastTab, because Finance and Operations doesn't have to retrieve the information for that FastTab until the FastTab is expanded. As explained later this topic, you can also change the order of the FastTabs on a page.
-- **Fact Boxes** – Some pages have a section that is known as a *Fact Box pane*. This pane contains read-only information that is related to the current subject of the page. Each section in the Fact Box pane is known as a *Fact Box*. You can hide or show the whole Fact Box pane, and you can also expand or collapse individual Fact Boxes. Finance and Operations stores your preferences. Then, every time that you return to the page, the state of the Fact Box pane and the individual Fact Boxes will be restored, based on your last interaction with the page. In some cases, you can help improve system performance by collapsing a Fact Box, because Finance and Operations doesn't have to retrieve the information for that Fact Box until the Fact Box is expanded.
-- **Action Panes** – An *Action Pane* appears near the top of most pages. The Action Pane contains buttons for many of the actions that you can perform on the current page. These buttons are often organized on tabs. You can pin open the entire Action Pane, or you can have it collapsed by default. Then, the next time that you open the page, Finance and Operations will restore the pinned state of the Action Pane. If the Action Pane is pinned open, Finance and Operations will also show the tab of actions you last used.
-- **QuickFilters** – A *QuickFilter* appears above many grids. The QuickFilter lets you filter the grid, based on a column that you select. Finance and Operations stores the column that you filtered on. Then, the next time that you open the page that includes that grid, the grid will be filtered on the same column. However, you can then filter the grid on a different column.
-- **Column header filters** – When you filter a grid by using the *Column header filters*, you can change the filter operator as you require to find the data that you want. For example, you can change the operator from **begins with** to **is exactly**. Every time that you use a column header filter and modify the filter operator, Finance and Operations stores the change. It will then restore filter operator the next time that you filter on that column.
-- **Navigation pane** – You can open the *Navigation pane* by selecting the **Menu** button in the left pane of any page. (The **Menu** button is sometimes referred to as the *hamburger*, *hamburger menu*, or *hamburger button*.) You can pin the Navigation pane open, or you can keep it collapsed by default. After you pin the Navigation pane open, Finance and Operations will keep it open until you collapse it.
 
 ## Explicit personalizations
 Different people and companies have a different perspective on the data that is most important to them, or the data that they don't require for the way that they run their business. In Finance and Operations, you can tailor the way that your information is ordered and interacted with. You can also specify that some information should be hidden. These capabilities are key to a personal and productive experience and are examples of explicit personalizations. Explicit personalizations are personalizations that you make explicitly, with the intention of changing the appearance or behavior of an element or page.
